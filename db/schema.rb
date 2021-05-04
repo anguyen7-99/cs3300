@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_04_212114) do
+ActiveRecord::Schema.define(version: 2021_05_04_220916) do
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string "slug", null: false
@@ -35,9 +35,12 @@ ActiveRecord::Schema.define(version: 2021_05_04_212114) do
 
   create_table "projects", force: :cascade do |t|
     t.string "title"
+    t.text "body"
     t.text "description"
+    t.string "slug"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["slug"], name: "index_projects_on_slug", unique: true
   end
 
 end
