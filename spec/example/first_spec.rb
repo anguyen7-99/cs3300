@@ -6,7 +6,7 @@ RSpec.describe "The math below is right..." do
   end
 end
 
-
+require "rails_helper"
 
 RSpec.describe "hello spec" do
   # ...

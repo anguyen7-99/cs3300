@@ -5,4 +5,5 @@ class Post < ApplicationRecord
     def should_generate_new_friendly_id?
         titel_changed?
     end
+    
 end
