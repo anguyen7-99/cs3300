@@ -1,6 +1,106 @@
 {
   "RSpec": {
     "coverage": {
+      "/root/cs3300/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          2,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/root/cs3300/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/root/cs3300/app/models/project.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          10,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/root/cs3300/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/root/cs3300/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
@@ -50,7 +150,7 @@
         "branches": {
         }
       },
-      "/root/cs3300/app/controllers/application_controller.rb": {
+      "/root/cs3300/app/helpers/projects_helper.rb": {
         "lines": [
           0,
           0
@@ -142,16 +242,7 @@
           0,
           0,
           0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/cs3300/app/models/application_record.rb": {
-        "lines": [
-          0,
-          0,
+          null,
           0
         ],
         "branches": {
@@ -168,6 +259,6 @@
         }
       }
     },
-    "timestamp": 1620162593
+    "timestamp": 1620165942
   }
 }

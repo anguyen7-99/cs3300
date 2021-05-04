@@ -6,8 +6,18 @@
 </p>
 
 <p>
+  <strong>Body:</strong>
+  <%= @project.body %>
+</p>
+
+<p>
   <strong>Description:</strong>
   <%= @project.description %>
+</p>
+
+<p>
+  <strong>Slug:</strong>
+  <%= @project.slug %>
 </p>
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
