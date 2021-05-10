@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Cs3300</title>
+    <title><%= yield(:page_title) %> | Cs3300</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -29,7 +29,7 @@
   <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
 <% end %>
 </p>
-
+    <div class = "container <%= controller_name %> <%= action_name %>">
     <%= yield %>
   </body>
 </html>
