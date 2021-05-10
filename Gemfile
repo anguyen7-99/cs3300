@@ -38,7 +38,7 @@ gem 'devise'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :production do
-  gem 'pg', '~> 0.21' # for Heroku deployment
+  gem 'pg','~> 1.1'  # for Heroku deployment
   gem 'rails_12factor'
 end
 
