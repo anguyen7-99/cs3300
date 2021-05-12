@@ -29,6 +29,7 @@
   <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
 <% end %>
 </p>
+    <%= render 'layouts/navbar' %>
     <div class = "container <%= controller_name %> <%= action_name %>">
     <%= yield %>
   </body>

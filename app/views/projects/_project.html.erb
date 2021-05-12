@@ -4,7 +4,7 @@
       <div class="card-topper" style='background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg);'></div>
     <div class="card-block">
       <h4 class="card-title"><%= link_to project.title, project %></h4>
-      <p class = "published-date">Published May 10, 2021</p>
+      <p class = "published-date"><%=project.display_day_published %></p>
       <p class="card-text"><%= truncate(project.description, length: 130) %></p>
       <%= link_to 'Read', project, class: 'btn btn-read' %>
       <% end %>
